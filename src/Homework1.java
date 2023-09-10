@@ -163,9 +163,12 @@ public class Homework1 {
 
     // task 9
     static int[] reverse(int[] arr) {
-        int[] arr1 = arr;
-        for (int i = 0; i < arr.length; ++i) {
-            arr[arr.length - i] = arr1[i];
+        int[] arr1 = new int[arr.length];
+        for (int i = 0; i < arr1.length; ++i) {
+            arr1[i] = arr[i];
+        }
+        for (int i = 0; i < arr1.length; ++i) {
+            arr[i] = arr1[arr.length - 1 - i];
         }
         return arr;
     }
@@ -173,14 +176,39 @@ public class Homework1 {
 
     // task 10
     static int[] sort(int[] arr) {
-        // Ваш код здесь
-        return null;
+        boolean swap = true;
+        int n;
+        while (swap == true) {
+            for (int i = 0; i < arr.length - 1; ++i) {
+                swap = false;
+                if (arr[i] > arr[i + 1]) {
+                    n = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = n;
+                    swap = true;
+                }
+            }
+        }
+        return arr;
     }
 
 
     // task 11
     static int[] removeExtra(int[] arr, int n) {
-        // Ваш код здесь
-        return null;
+        int count = 0;
+        int a = 0;
+        for (int i = 0; i < arr.length; ++i) {
+            if (arr[i] == n) {
+                count += 1;
+            }
+        }
+        int[] arr1 = new int[arr.length - count];
+        for (int i = 0; i < arr.length; ++i) {
+            if (arr[i] != n) {
+                arr1[a] = arr[i];
+                a += 1;
+            }
+        }
+        return arr1;
     }
 }
