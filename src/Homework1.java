@@ -21,61 +21,153 @@ public class Homework1 {
 
     // task 1
     static void convert(int arg) {
-        // Ваш код здесь
+        System.out.println(Long.toBinaryString(arg));
+        System.out.println(Long.toOctalString(arg));
+        System.out.println(Long.toHexString(arg));
     }
 
 
     // task 2
     static int normalize(int angle) {
-        // Ваш код здесь
+        angle = angle % 360;
         return angle;
     }
 
 
     // task 3
     static int max(int x, int y, int z) {
-        // Ваш код здесь
-        return 0;
+        if (x > y) {
+            if (x > z) {
+                return x;
+            }
+            else {
+                return z;
+            }
+        }
+        else {
+            if (y > z) {
+                return y;
+            }
+            else {
+                return z;
+            }
+        }
     }
 
 
     // task 4
     static int fact(int n) {
-        // Ваш код здесь
-        return 0;
+        if (n == 1) {
+            return 1;
+        }
+        else {
+            return n * fact(n-1);
+        }
     }
 
 
     // task 5
     static BigInteger fact(BigInteger n) {
-        // Ваш код здесь
-        return null;
+        BigInteger fact = BigInteger.valueOf(30);
+        long m = n.longValue();
+        while (m > 1) {
+            fact = fact.multiply(n);
+            n = n.subtract(BigInteger.valueOf(1));
+            m = n.longValue();
+        }
+        return fact;
     }
 
     // task 6
     static void multiplTable() {
-        // Ваш код здесь
+        int n = 0;
+        System.out.print(' ');
+        for (int i = 1; i <= 10; ++i){
+            System.out.print(' ');
+            System.out.print(i);
+        }
+        System.out.println(' ');
+        for (int i = 1; i <= 10; ++i){
+            for (int j = 1; j <= 10; ++j){
+                System.out.print(i*j);
+                System.out.print(' ');
+            }
+            System.out.println(' ');
+        }
+
     }
 
 
     // task 7
     static int average(int... nums) {
-        // Ваш код здесь
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < nums.length; ++i) {
+            sum += nums[i];
+        }
+        return sum/nums.length;
     }
 
 
     // task 8
     static boolean isMagicSquare(int[][] square) {
-        // Ваш код здесь
-        return false;
+        int sum_max = 0;
+        int sum_min = 100000000;
+        int sum = 0;
+        for (int i = 0; i < 4; ++i) {
+            for (int j = 0; j < 4; ++j) {
+                sum += square[i][j];
+            }
+            if (sum < sum_min) {
+                sum_min = sum;
+            }
+            if (sum > sum_max) {
+                sum_max = sum;
+            }
+            sum = 0;
+        }
+        for (int i = 0; i < 4; ++i) {
+            for (int j = 0; j < 4; ++j) {
+                sum += square[j][i];
+            }
+            if (sum < sum_min) {
+                sum_min = sum;
+            }
+            if (sum > sum_max) {
+                sum_max = sum;
+            }
+            sum = 0;
+        }
+        sum = square[0][0] + square[1][1] + square[2][2] + square[3][3];
+        if (sum < sum_min) {
+            sum_min = sum;
+        }
+        if (sum > sum_max) {
+            sum_max = sum;
+        }
+        sum = square[0][3] + square[1][2] + square[2][1] + square[3][0];
+        if (sum < sum_min) {
+            sum_min = sum;
+        }
+        if (sum > sum_max) {
+            sum_max = sum;
+        }
+
+        if (sum_max == sum_min) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 
     // task 9
     static int[] reverse(int[] arr) {
-        // Ваш код здесь
-        return null;
+        int[] arr1 = arr;
+        for (int i = 0; i < arr.length; ++i) {
+            arr[arr.length - i] = arr1[i];
+        }
+        return arr;
     }
 
 
