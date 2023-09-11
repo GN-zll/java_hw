@@ -68,14 +68,14 @@ public class Homework1 {
 
     // task 5
     static BigInteger fact(BigInteger n) {
-        BigInteger fact = BigInteger.valueOf(30);
+        BigInteger factorial = BigInteger.valueOf(1);
         long m = n.longValue();
         while (m > 1) {
-            fact = fact.multiply(n);
+            factorial = factorial.multiply(n);
             n = n.subtract(BigInteger.valueOf(1));
             m = n.longValue();
         }
-        return fact;
+        return factorial;
     }
 
     // task 6
