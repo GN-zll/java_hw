@@ -1,12 +1,13 @@
 package Homework2;
 
-public class Homework2 {
+public class task1 {
     public static void main(String[] args) {
-        System.out.println(equals("s","S"));
-        System.out.println(replace("super","s","S"));
-        System.out.println(format("Михаил",10,"жабе"));
+        System.out.println(equals("s", "S"));
+        System.out.println(replace("super", "s", "S"));
+        System.out.println(format("Михаил", 10, "жабе"));
         System.out.println(isPalindrome("1S1"));
     }
+
     static boolean equals(String s, String t) {
         // проверить, что строки совпадают без учета регистра
         return s.equalsIgnoreCase(t);
