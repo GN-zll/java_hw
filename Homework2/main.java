@@ -2,13 +2,14 @@ package Homework2;
 
 public class main {
     public static void main(String[] args) {
-        intHolder hold1 = new intHolder(20);
-        intHolder hold2 = intHolder.valueOf(30);
-        intHolder.swap(hold1, hold2);
-        System.out.println(hold1.x);
-        System.out.println(hold2.x);
-        System.out.println(intHolder.mult(hold1,hold2).x);
-
-
+        Car myCar = new Car("green", 5, 200, "BMW", 10, 0);
+        myCar.info_all();
+        myCar.refueling();
+        myCar.info();
+        myCar.start();
+        myCar.move();
+        myCar.getMileage();
+        myCar.move(123456);
+        myCar.info();
     }
 }
