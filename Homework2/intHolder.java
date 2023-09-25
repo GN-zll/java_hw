@@ -4,31 +4,39 @@ import java.util.Objects;
 
 public class intHolder {
     int x;
+
     public intHolder(int x) {
         this.x = x;
     }
+
     public intHolder() {
         this.x = 0;
     }
-    public static intHolder valueOf(int x){
+
+    public static intHolder valueOf(int x) {
         return new intHolder(x);
     }
 
     public void is(int new_x) {
         x = new_x;
     }
+
     public static intHolder sum(intHolder a, intHolder b) {
         return new intHolder(a.x + b.x);
     }
+
     public static intHolder sub(intHolder a, intHolder b) {
         return new intHolder(a.x - b.x);
     }
+
     public static intHolder mult(intHolder a, intHolder b) {
         return new intHolder(a.x * b.x);
     }
+
     public static intHolder div(intHolder a, intHolder b) {
         return new intHolder(a.x / b.x);
     }
+
     public static intHolder rem(intHolder a, intHolder b) {
         return new intHolder(a.x % b.x);
     }
@@ -38,6 +46,7 @@ public class intHolder {
         i.x = j.x;
         j.x = g.x;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
