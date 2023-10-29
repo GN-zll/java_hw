@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f73d3b-5491-4620-a960-a23ad4303bba" name="Changes" comment="add class pet" />
+    <list default="true" id="28f73d3b-5491-4620-a960-a23ad4303bba" name="Changes" comment="add class pet">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task1/IntSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task2/KeywordAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task2/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task2/NegativeTextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task2/SpamAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task2/TextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task2/TooLongTextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_hw.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_hw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_hw/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -46,22 +63,23 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2VQXys3jWL9FInX3D6GDoDw6beo" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "git-widget-placeholder": "hw4",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework2.Main" />
@@ -131,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695643367681</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add class pet">
+      <option name="closed" value="true" />
+      <created>1698590883200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698590883200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
