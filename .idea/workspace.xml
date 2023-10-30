@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f73d3b-5491-4620-a960-a23ad4303bba" name="Changes" comment="add class pet">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/Task1/IntSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/Task2/KeywordAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/Task2/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/Task2/NegativeTextAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/Task2/SpamAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/Task2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/Task2/TextAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/Task2/TooLongTextAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_hw.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="28f73d3b-5491-4620-a960-a23ad4303bba" name="Changes" comment="Сделал 1 и 2">
+      <change afterPath="$PROJECT_DIR$/Homework4/Task3/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task4/Sign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task4/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task5/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task5/WrongLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task5/WrongPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task6/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework4/Task7/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_hw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_hw/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework4/Task1/IntSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/Task1/IntSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -157,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698590883200</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Сделал 1 и 2">
+      <option name="closed" value="true" />
+      <created>1698598991719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698598991719</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Сделал 1 и 2">
+      <option name="closed" value="true" />
+      <created>1698599000729</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698599000729</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +201,8 @@
     <MESSAGE value="add class intHolder" />
     <MESSAGE value="add class Car" />
     <MESSAGE value="add class pet" />
-    <option name="LAST_COMMIT_MESSAGE" value="add class pet" />
+    <MESSAGE value="Сделал 1 и 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал 1 и 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

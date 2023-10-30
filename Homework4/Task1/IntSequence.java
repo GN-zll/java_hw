@@ -13,7 +13,7 @@ public interface IntSequence {
         if (index < ints.length) {
           return ints[index++];
         } else {
-          System.out.print("Index out of bounce");
+          System.err.print("Index out of bounce");
           return null;
         }
       }
