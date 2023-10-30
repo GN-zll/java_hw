@@ -11,6 +11,9 @@ public class Main {
   }
 
   public static<T extends Comparable<T>> Pair<T> minMax(T[] arr) {
+    if(arr.length == 0) {
+      return null;
+    }
     Arrays.sort(arr);
     return new Pair<>(arr[0], arr[arr.length - 1]);
   }
