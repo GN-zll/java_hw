@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f73d3b-5491-4620-a960-a23ad4303bba" name="Changes" comment="Do Task5">
-      <change afterPath="$PROJECT_DIR$/Homework6/Task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework6/Task3/Pair.java" afterDir="false" />
+    <list default="true" id="28f73d3b-5491-4620-a960-a23ad4303bba" name="Changes" comment="Do Task3">
+      <change afterPath="$PROJECT_DIR$/Homework6/Task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework6/Task4/Pair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,12 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Homework6.Task3.Main">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Homework6.Task4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Homework6.Task4.Main">
     <configuration name="Homework6.Task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework6.Task3.Main" />
       <module name="java_hw" />
@@ -79,6 +84,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Homework6.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework6.Task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework6.Task4.Main" />
+      <module name="java_hw" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework6.Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,10 +135,12 @@
     <list>
       <item itemvalue="Application.Homework6.Task5.Main" />
       <item itemvalue="Application.Homework6.Task3.Main" />
+      <item itemvalue="Application.Homework6.Task4.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework6.Task4.Main" />
         <item itemvalue="Application.Homework6.Task3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
@@ -216,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698634459809</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Do Task3">
+      <option name="closed" value="true" />
+      <created>1698635944627</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698635944627</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +279,8 @@
     <MESSAGE value="Сделал 1 и 2" />
     <MESSAGE value="Доделаль!" />
     <MESSAGE value="Do Task5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Do Task5" />
+    <MESSAGE value="Do Task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Do Task3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
