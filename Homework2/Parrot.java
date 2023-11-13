@@ -2,17 +2,17 @@ package Homework2;
 
 public class Parrot extends Pet {
     private final String country;
-    private boolean documents;
+    private boolean hasDocuments;
 
     @Override
     public void say() {
         System.out.println("karamba!");
     }
 
-    public Parrot(String name, int weight, int age, String owner, String country, boolean documents) {
+    public Parrot(String name, int weight, int age, String owner, String country, boolean hasDocuments) {
         super(name, weight, age, owner);
         this.country = country;
-        this.documents = documents;
+        this.hasDocuments = hasDocuments;
     }
 
     public void fly() {
