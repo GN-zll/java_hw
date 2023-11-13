@@ -25,7 +25,7 @@ public class Dog extends Pet {
     }
 
     enum Feed {
-        Expensive,
-        Cheap
+        EXPENSIVE,
+        CHEAP
     }
 }

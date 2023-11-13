@@ -22,8 +22,8 @@ public final class Point {
         return y;
     }
 
-    public Point translate(double new_x, double new_y) {
-        return new Point(new_x, new_y);
+    public Point translate(double newX, double newY) {
+        return new Point(newX, newY);
     }
 
     public Point scale(double a) {

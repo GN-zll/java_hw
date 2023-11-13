@@ -34,7 +34,7 @@ public class Main {
                 2,
                 "Men",
                 "Russia",
-                Dog.Feed.Expensive);
+                Dog.Feed.EXPENSIVE);
 
         Pet[] animals = new Pet[]{myDog, myCat, myParrot};
 
