@@ -103,12 +103,15 @@ public class Homework1 {
 
 
     // task 7
-    static int average(int... nums) {
+    static Double average(int... nums) {
+        if(nums == null){
+            return null;
+        }
         int sum = 0;
         for (int i = 0; i < nums.length; ++i) {
             sum += nums[i];
         }
-        return sum/nums.length;
+        return (double) sum/nums.length;
     }
 
 
