@@ -1,7 +1,5 @@
 package homework4.task6;
 
-import java.io.FileNotFoundException;
-
 public class Test {
 
   public static void main(String[] args) {
@@ -21,7 +19,7 @@ public class Test {
     }
   }
 
-  public static void printSum(Integer a, Integer b) throws FileNotFoundException {
+  public static void printSum(Integer a, Integer b) {
     System.out.println(a + b);
   }
 }
