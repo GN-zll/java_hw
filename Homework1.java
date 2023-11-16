@@ -71,12 +71,13 @@ public class Homework1 {
 
     // task 5
     static BigInteger fact(BigInteger n) {
-        BigInteger factorial = BigInteger.valueOf(1);
-        long m = n.longValue();
-        while (m > 1) {
+        if(n.equals(BigInteger.ZERO)){
+            return n;
+        }
+        BigInteger factorial = BigInteger.ONE;
+        while (n.compareTo(BigInteger.ONE) > 0) {
             factorial = factorial.multiply(n);
             n = n.subtract(BigInteger.valueOf(1));
-            m = n.longValue();
         }
         return factorial;
     }
