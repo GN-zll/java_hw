@@ -1,6 +1,6 @@
 package homework4.task5;
 
-public class WrongPasswordException extends Exception{
+public class WrongPasswordException extends Exception {
 
   public WrongPasswordException() {
   }
