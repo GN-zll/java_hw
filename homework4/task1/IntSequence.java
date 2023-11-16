@@ -1,4 +1,4 @@
-package Homework4.Task1;
+package homework4.task1;
 
 public interface IntSequence {
 
@@ -13,8 +13,7 @@ public interface IntSequence {
         if (index < ints.length) {
           return ints[index++];
         } else {
-          System.err.print("Index out of bounce");
-          return null;
+          throw new IllegalStateException("Index out of bounce");
         }
       }
     };

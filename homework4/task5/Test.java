@@ -1,4 +1,4 @@
-package Homework4.Task5;
+package homework4.task5;
 
 public class Test {
   static boolean singUp (String login, String password, String confirmPassword) {

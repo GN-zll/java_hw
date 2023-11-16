@@ -1,13 +1,12 @@
-package Homework4.Task7;
+package homework4.task9;
 
 public class Test {
-
   public static void main(String[] args) {
     try {
-    int a = 42 / 0;
-    } catch (ArithmeticException e) {
+      int[] m = new int[2];
+      m[8] = 5;
+    } catch (ArrayIndexOutOfBoundsException e) {
       System.err.println("error :(");
     }
   }
-
 }

@@ -1,4 +1,4 @@
-package Homework4.Task2;
+package homework4.task2;
 
 public enum Label {
   Spam,

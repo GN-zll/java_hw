@@ -1,4 +1,4 @@
-package Homework4.Task4;
+package homework4.task4;
 
 public class Test {
 
