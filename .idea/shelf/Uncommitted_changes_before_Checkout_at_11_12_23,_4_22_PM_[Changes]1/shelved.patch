@@ -1,0 +1,72 @@
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_10_29_23,_5_43_PM_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_29_23,_5_43_PM_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_29_23,_5_43_PM_[Changes]1/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_29_23,_5_43_PM_[Changes]1/shelved.patch	
++++ /dev/null	
+@@ -1,65 +0,0 @@
+-Index: Homework4/Task2/TextAnalyzer.java
+-===================================================================
+-diff --git a/Homework4/Task2/TextAnalyzer.java b/Homework4/Task2/TextAnalyzer.java
+-new file mode 100644
+---- /dev/null	
+-+++ b/Homework4/Task2/TextAnalyzer.java	
+-@@ -0,0 +1,5 @@
+-+package Task2;
+-+public interface TextAnalyzer {
+-+
+-+  Label processText(String text);
+-+}
+-Index: Homework4/Task2/SpamAnalyzer.java
+-===================================================================
+-diff --git a/Homework4/Task2/SpamAnalyzer.java b/Homework4/Task2/SpamAnalyzer.java
+-new file mode 100644
+---- /dev/null	
+-+++ b/Homework4/Task2/SpamAnalyzer.java	
+-@@ -0,0 +1,5 @@
+-+package Task2;
+-+
+-+public class SpamAnalyzer {
+-+  
+-+}
+-\ No newline at end of file
+-Index: Homework4/Task1/IntSequence.java
+-===================================================================
+-diff --git a/Homework4/Task1/IntSequence.java b/Homework4/Task1/IntSequence.java
+-new file mode 100644
+---- /dev/null	
+-+++ b/Homework4/Task1/IntSequence.java	
+-@@ -0,0 +1,32 @@
+-+interface IntSequence {
+-+
+-+  public int next;
+-+
+-+  static IntSequence of(int... intNums) {
+-+    return new IntSequence() {
+-+      private int index = 0;
+-+
+-+      @Override
+-+      public int next
+-+
+-+      {
+-+        if (index < intNums.length) {
+-+          return intNums[index++]
+-+        } else {
+-+          throw IndexOutOfBoundsException;
+-+        }
+-+      }
+-+    }
+-+  }
+-+
+-+  static constant(int c) {
+-+    return new IntSequence() {
+-+      @Override
+-+      public int next
+-+
+-+      {
+-+        return c;
+-+      }
+-+    }
+-+  }
+-+}
+-\ No newline at end of file
