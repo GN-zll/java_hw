@@ -21,13 +21,13 @@ public class Test {
     NegativeTextAnalyzer negativeTextAnalyzer = new NegativeTextAnalyzer();
     TooLongTextAnalyzer tooLongTextAnalyzer = new TooLongTextAnalyzer(maxLengthText);
     if(spamAnalyzer.processText(text) != Label.OK) {
-      return Label.Spam;
+      return Label.SPAM;
     }
     if(negativeTextAnalyzer.processText(text) != Label.OK) {
-      return Label.NegativeText;
+      return Label.NEGATIVE_TEXT;
     }
     if(tooLongTextAnalyzer.processText(text) != Label.OK) {
-      return Label.TooLongText;
+      return Label.TOO_LONG_TEXT;
     }
     return Label.OK;
   }

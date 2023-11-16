@@ -2,7 +2,7 @@ package homework4.task2;
 
 public class SpamAnalyzer extends KeywordAnalyzer implements TextAnalyzer {
   private final String[] keywords;
-  private final Label label = Label.Spam;
+  private final Label label = Label.SPAM;
   public SpamAnalyzer(String[] keywords) {
     this.keywords = keywords;
   }
