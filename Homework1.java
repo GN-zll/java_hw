@@ -114,53 +114,38 @@ public class Homework1 {
 
   // task 8
   static boolean isMagicSquare(int[][] square) {
-    int sum_max = 0;
-    int sum_min = 100000000;
-    int sum = 0;
-    for (int i = 0; i < 4; ++i) {
-      for (int j = 0; j < 4; ++j) {
+    int sumMax = Integer.MIN_VALUE;
+    int sumMin = Integer.MAX_VALUE;
+    for (int i = 0; i < square.length; ++i) {
+      int sum = 0;
+      for (int j = 0; j < square.length; ++j) {
         sum += square[i][j];
       }
-      if (sum < sum_min) {
-        sum_min = sum;
-      }
-      if (sum > sum_max) {
-        sum_max = sum;
-      }
-      sum = 0;
+      sumMax = Math.max(sum, sumMax);
+      sumMin = Math.min(sum, sumMin);
     }
-    for (int i = 0; i < 4; ++i) {
-      for (int j = 0; j < 4; ++j) {
+    for (int i = 0; i < square.length; ++i) {
+      int sum = 0;
+      for (int j = 0; j < square.length; ++j) {
         sum += square[j][i];
       }
-      if (sum < sum_min) {
-        sum_min = sum;
-      }
-      if (sum > sum_max) {
-        sum_max = sum;
-      }
-      sum = 0;
+      sumMax = Math.max(sum, sumMax);
+      sumMin = Math.min(sum, sumMin);
     }
-    sum = square[0][0] + square[1][1] + square[2][2] + square[3][3];
-    if (sum < sum_min) {
-      sum_min = sum;
+    int sum = 0;
+    for (int i = 0; i < square.length; ++i) {
+      sum += square[i][square.length - 1 - i];
     }
-    if (sum > sum_max) {
-      sum_max = sum;
+    sumMax = Math.max(sum, sumMax);
+    sumMin = Math.min(sum, sumMin);
+    sum = 0;
+    for (int i = 0; i < square.length; ++i) {
+      sum += square[square.length - 1 - i][i];
     }
-    sum = square[0][3] + square[1][2] + square[2][1] + square[3][0];
-    if (sum < sum_min) {
-      sum_min = sum;
-    }
-    if (sum > sum_max) {
-      sum_max = sum;
-    }
+    sumMax = Math.max(sum, sumMax);
+    sumMin = Math.min(sum, sumMin);
 
-    if (sum_max == sum_min) {
-      return true;
-    } else {
-      return false;
-    }
+    return sumMax == sumMin;
   }
 
 
@@ -181,7 +166,7 @@ public class Homework1 {
   static int[] sort(int[] arr) {
     boolean swap = true;
     int n;
-    while (swap == true) {
+    while (swap) {
       for (int i = 0; i < arr.length - 1; ++i) {
         swap = false;
         if (arr[i] > arr[i + 1]) {
