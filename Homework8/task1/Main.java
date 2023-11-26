@@ -8,6 +8,9 @@ import java.util.Optional;
 
 public class Main {
   public static List<Integer> findPrimes(int n) {
+    if(n <= 0) {
+      throw new IllegalArgumentException();
+    }
     HashSet<Integer> set = new HashSet<>(n);
     for (int i = 2; i <= n; ++i) {
       set.add(i);
