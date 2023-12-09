@@ -1,14 +1,14 @@
 package task1;
 
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 
 public class Main {
+
   public static List<Integer> findPrimes(int n) {
-    if(n <= 0) {
+    if (n <= 0) {
       throw new IllegalArgumentException();
     }
     HashSet<Integer> set = new HashSet<>(n);
@@ -22,8 +22,9 @@ public class Main {
         set.remove(k++ * p);
       }
       int finalP = p;
-      Optional<Integer> optionalP = set.stream().filter((x) -> x > finalP).min(Comparator.naturalOrder());
-      if(optionalP.isPresent()) {
+      Optional<Integer> optionalP = set.stream().filter((x) -> x > finalP)
+          .min(Comparator.naturalOrder());
+      if (optionalP.isPresent()) {
         p = optionalP.get();
       } else {
         break;
