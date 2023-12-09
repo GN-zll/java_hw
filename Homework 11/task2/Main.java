@@ -6,7 +6,7 @@ import java.util.function.Function;
 public class Main {
 
   public static void main(String[] args) {
-    Function<String, String> substring05 = bind(String::substring, );
+    Function<String, String> substring05 = bind((Integer a, String b) -> b.substring(0, a), 5);
     System.out.println(substring05.apply("123456789"));
   }
 
